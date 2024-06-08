@@ -59,3 +59,35 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
 data count is  001
 >>> print(f"data count is {b}")
 data count is 1
+
+>>> astring = "sjhgd skdjhs sjkdhsdh skjdh"
+>>> astring [::-3]
+'hkhhjsd h'
+>>> a = [10,20,30]
+>>> for i in a
+  File "<stdin>", line 1
+    for i in a
+              ^
+SyntaxError: expected ':'
+>>> for i in a
+  File "<stdin>", line 1
+    for i in a
+              ^
+SyntaxError: expected ':'
+>>> for i in a:
+... print (f"data : {i}")
+  File "<stdin>", line 2
+    print (f"data : {i}")
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> print (f"data : {i}")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'i' is not defined. Did you mean: 'id'?
+>>> for i in a:
+... print (f"data : {i}")
+  File "<stdin>", line 2
+    print (f"data : {i}")
+    ^
+IndentationError: expected an indented block after 'for' statement on line 1
+>>> print (f"data : {i}")
