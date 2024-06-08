@@ -91,3 +91,13 @@ NameError: name 'i' is not defined. Did you mean: 'id'?
     ^
 IndentationError: expected an indented block after 'for' statement on line 1
 >>> print (f"data : {i}")
+
+>>> len (astring)
+27
+>>> len (astring[10:])
+17
+>>> len (astring[10:15])
+5
+>>> len (astring[:15])
+15
+>>>
