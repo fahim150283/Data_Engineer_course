@@ -1,0 +1,61 @@
+C:\Users\student>python
+Python 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "hello world"
+  File "<stdin>", line 1
+    print "hello world"
+    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+>>> print ("hello world")
+hello world
+>>> a = 1
+>>> a
+1
+>>> a = input("input an int")
+input an int3
+>>> a
+'3'
+>>> a = " 001"
+>>> a
+' 001'
+>>> a (int)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object is not callable
+>>> b = (int a)
+  File "<stdin>", line 1
+    b = (int a)
+         ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> b = int( a)
+>>> b
+1
+>>> astring = "skjdskj hdkjsdhkjshdkjshd skjdhkjs"
+>>> astring
+'skjdskj hdkjsdhkjshdkjshd skjdhkjs'
+>>> astring.split()
+['skjdskj', 'hdkjsdhkjshdkjshd', 'skjdhkjs']
+>>> astring[2]
+'j'
+>>> astring[2]
+'j'
+>>> astring[2:]
+'jdskj hdkjsdhkjshdkjshd skjdhkjs'
+>>> astring[:]
+'skjdskj hdkjsdhkjshdkjshd skjdhkjs'
+>>> astring[:1]
+'s'
+>>> astring[:10]
+'skjdskj hd'
+>>> astring[10:]
+'kjsdhkjshdkjshd skjdhkjs'
+>>> astring[10:10]
+''
+>>> astring[10:1]
+''
+>>> astring[10:11]
+'k'
+>>> print(f"data count is {a}")
+data count is  001
+>>> print(f"data count is {b}")
+data count is 1
