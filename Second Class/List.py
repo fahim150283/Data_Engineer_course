@@ -13,8 +13,11 @@ print(len(list1))
 
 print("*" * 40)
 
+# append
 list1.append(10)
 print(list1)
+
+list2.append("germany")
 print("*" * 40)
 
 # merge lists type 1 (nested list)
@@ -41,4 +44,15 @@ print(Splittedresult)
 
 Splittedresult = resulted.split("neega")
 print(Splittedresult)
+print("*" *40)
+
+
+# [x:y]
+list1[:]
+list1[:5]
+list1[5:]
+
+print(list1)
+print(list1[4])
+print(list1[-1])
 print("*" *40)
