@@ -1,10 +1,14 @@
-# for , for each ,  while 
+# for
 
 
 list1= []
 
 for i in range(10):
     list1.append(i+1)
+    #inside loop
+    #inside loop
+    #inside loop
+# Outside loop
 
 print(list1)
 print("*" *40)
