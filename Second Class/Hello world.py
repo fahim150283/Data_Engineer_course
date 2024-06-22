@@ -1,3 +1,6 @@
+# From the last class
+
+
 # task 1
 
 a = int(input("Please enter a number : "))
