@@ -3,7 +3,7 @@
 
 a = "hello"
 b = "world"
-c = a +" "+ b +" "   # merge strings
+c = a +" "+ b +" "   # merge strings (concatination)
 
 print("Here a : " + a)
 print("*"*40)

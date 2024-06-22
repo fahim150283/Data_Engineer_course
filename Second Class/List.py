@@ -17,12 +17,28 @@ list1.append(10)
 print(list1)
 print("*" * 40)
 
-# merge lists type 1
+# merge lists type 1 (nested list)
 resultList1 = list2 + list3
 print(resultList1)
 
 print("*" * 40)
 
-# merge lists type 2
+# merge lists type 2 (normal single list)
 list3.extend(list2)
 print(list3)
+print("*" *40)
+
+# join
+resulted = " ".join(list2)
+print(resulted)
+resulted = " 'yo neega' ".join(list2)
+print(resulted)
+print("*" *40)
+
+# split
+Splittedresult = resulted.split(" ")
+print(Splittedresult)
+
+Splittedresult = resulted.split("neega")
+print(Splittedresult)
+print("*" *40)
