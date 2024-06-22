@@ -9,7 +9,7 @@ print("Here a : " + a)
 print("*"*40)
 print("Here b : " + b)
 print("*"*40)
-print("Here c : "+c),("Here c is print double :" + c*2)    # here * is used to print multiple times (String repeatation)
+print("Here c : "+c)       # here * is used to print multiple times (String repeatation)
 print("*"*40)
 
 # print c to upper case
@@ -45,7 +45,7 @@ print("*"*40)
 
 
 #find operations
-print(paragraph.find("in")),(" : is the number of times found in the paragraph") # find indexing or positioning
+print(paragraph.find("in")) # find indexing or positioning
 print("*"*40)
 
 
